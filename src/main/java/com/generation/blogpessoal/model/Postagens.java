@@ -39,6 +39,10 @@ public class Postagens {
 	@JsonIgnoreProperties("postagens")
 	private Tema tema;
 	
+	@ManyToOne
+	@JsonIgnoreProperties("postagens")
+	private Usuario usuario;
+	
 	//Getters and Setters
 
 	public Long getId() {
