@@ -43,6 +43,8 @@ public class Postagens {
 	@JsonIgnoreProperties("postagens")
 	private Usuario usuario;
 	
+	
+	
 	//Getters and Setters
 
 	public Long getId() {
